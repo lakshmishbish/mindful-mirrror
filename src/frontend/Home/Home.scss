@@ -1,0 +1,175 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  
+    .intro-section {
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h1 {
+        font-size: 2.5em;
+        color: #4a90e2;
+      }
+  
+      p {
+        font-size: 1.2em;
+        color: #666;
+      }
+    }
+  
+    .benefits-section {
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h2 {
+        font-size: 1.8em;
+        color: #4a90e2;
+        margin-bottom: 10px;
+      }
+  
+      .benefits-list {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          font-size: 1.2em;
+          margin: 10px 0;
+        }
+      }
+    }
+  
+    .auth-section {
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h3 {
+        font-size: 1.5em;
+        color: #4a90e2;
+        margin-bottom: 10px;
+      }
+  
+      .auth-button {
+        display: block;
+        width: 80%;
+        max-width: 300px;
+        margin: 10px 0;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &.email-login {
+          background-color: #4a90e2;
+          color: #fff;
+        }
+  
+        &.google-login {
+          background-color: #db4437;
+          color: #fff;
+        }
+  
+        &.apple-login {
+          background-color: #000;
+          color: #fff;
+        }
+  
+        &.social-login {
+          background-color: #3b5998;
+          color: #fff;
+        }
+  
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  
+    .quiz-prompt {
+      text-align: center;
+      margin: 20px 0;
+  
+      p {
+        font-size: 1.1em;
+        color: #666;
+      }
+  
+      .quiz-toggle-button {
+        background-color: #4a90e2;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #357ABD;
+        }
+      }
+    }
+  
+    .quiz-section {
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h3 {
+        font-size: 1.5em;
+        color: #4a90e2;
+        margin-bottom: 15px;
+      }
+  
+      .quiz-question {
+        margin: 10px 0;
+        
+        p {
+          font-size: 1.1em;
+          color: #333;
+        }
+  
+        .quiz-options {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+  
+          button {
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+  
+            &:hover {
+              background-color: #357ABD;
+            }
+          }
+        }
+      }
+  
+      .quiz-finish-button {
+        background-color: #4a90e2;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 15px;
+  
+        &:hover {
+          background-color: #357ABD;
+        }
+      }
+    }
+  }
+  

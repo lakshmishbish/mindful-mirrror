@@ -1,0 +1,148 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .mood-checkin {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  
+    .checkin-button {
+      padding: 12px 20px;
+      font-size: 1.2em;
+      background-color: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #357ABD;
+      }
+    }
+  }
+  
+  .reflection-prompt {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f7f9fc;
+    padding: 15px;
+    border-radius: 10px;
+  
+    h2 {
+      color: #4a90e2;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 1.1em;
+      color: #666;
+      margin-bottom: 10px;
+    }
+  
+    .reflect-button {
+      padding: 8px 16px;
+      font-size: 1em;
+      background-color: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #357ABD;
+      }
+    }
+  }
+  
+  .quick-actions {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  
+    h2 {
+      color: #4a90e2;
+      margin-bottom: 10px;
+    }
+  
+    .action-button {
+      padding: 8px 16px;
+      font-size: 1em;
+      background-color: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 5px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #357ABD;
+      }
+    }
+  }
+  
+  .recent-entries {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  
+    h2 {
+      color: #4a90e2;
+      margin-bottom: 10px;
+    }
+  
+    .entry {
+      margin-bottom: 15px;
+  
+      .entry-date {
+        font-size: 0.9em;
+        color: #999;
+      }
+  
+      .entry-text {
+        font-size: 1.1em;
+        color: #333;
+      }
+    }
+  }
+  
+  .progress-overview {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+  
+    h2 {
+      color: #4a90e2;
+      margin-bottom: 10px;
+    }
+  
+    .progress-indicators {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      .calendar, .emotion-graph {
+        font-size: 2em;
+        margin: 10px;
+      }
+  
+      p {
+        font-size: 1em;
+        color: #666;
+        margin-top: 10px;
+      }
+    }
+  }
+  

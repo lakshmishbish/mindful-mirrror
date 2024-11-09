@@ -1,0 +1,133 @@
+.reflection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  
+    .prompt-section {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h2 {
+        font-size: 1.8em;
+        color: #4a90e2;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 1.1em;
+        color: #666;
+      }
+    }
+  
+    .entry-section {
+      width: 100%;
+      margin-bottom: 20px;
+  
+      textarea {
+        width: 100%;
+        min-height: 150px;
+        padding: 10px;
+        font-size: 1.1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical;
+      }
+    }
+  
+    .voice-toggle-button {
+      padding: 8px 16px;
+      font-size: 1em;
+      background-color: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px 0;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #357ABD;
+      }
+    }
+  
+    .tags-section {
+      width: 100%;
+      margin-bottom: 20px;
+      text-align: center;
+  
+      h3 {
+        font-size: 1.2em;
+        color: #4a90e2;
+        margin-bottom: 10px;
+      }
+  
+      .tags-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+  
+        .tag-button {
+          padding: 8px 12px;
+          margin: 5px;
+          border: none;
+          border-radius: 5px;
+          font-size: 0.9em;
+          background-color: #e0f2ff;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+  
+          &.active {
+            background-color: #4a90e2;
+            color: #fff;
+          }
+  
+          &:hover {
+            background-color: #bcd4f6;
+          }
+        }
+      }
+    }
+  
+    .actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+  
+      .save-button, .reflect-later-button {
+        padding: 10px 20px;
+        font-size: 1.1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &.save-button {
+          background-color: #4a90e2;
+          color: #fff;
+  
+          &:hover {
+            background-color: #357ABD;
+          }
+  
+          &:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+          }
+        }
+  
+        &.reflect-later-button {
+          background-color: #f5f5f5;
+          color: #333;
+  
+          &:hover {
+            background-color: #e0e0e0;
+          }
+        }
+      }
+    }
+  }
+  
